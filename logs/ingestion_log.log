@@ -1,0 +1,16 @@
+2025-06-06 11:12:48,731 - INFO - Successfully connected to MySQL.
+2025-06-06 11:12:49,009 - INFO - Reading file: begin_inventory.csv | Shape: (206529, 9)
+2025-06-06 11:13:19,067 - INFO - Ingested 'begin_inventory.csv' into MySQL table 'begin_inventory' in  0.51 min.
+2025-06-06 11:13:19,350 - INFO - Reading file: end_inventory.csv | Shape: (224489, 9)
+2025-06-06 11:13:50,606 - INFO - Ingested 'end_inventory.csv' into MySQL table 'end_inventory' in  0.53 min.
+2025-06-06 11:13:55,204 - INFO - Reading file: purchases.csv | Shape: (2372474, 16)
+2025-06-06 11:23:31,634 - INFO - Ingested 'purchases.csv' into MySQL table 'purchases' in  9.68 min.
+2025-06-06 11:23:31,839 - INFO - Reading file: purchase_prices.csv | Shape: (12261, 9)
+2025-06-06 11:23:33,764 - INFO - Ingested 'purchase_prices.csv' into MySQL table 'purchase_prices' in  0.04 min.
+2025-06-06 11:23:55,885 - INFO - Reading file: sales.csv | Shape: (12825363, 14)
+2025-06-06 12:10:00,399 - INFO - Ingested 'sales.csv' into MySQL table 'sales' in  46.44 min.
+2025-06-06 12:10:01,701 - INFO - Reading file: vendor_invoice.csv | Shape: (5543, 10)
+2025-06-06 12:10:02,778 - INFO - Ingested 'vendor_invoice.csv' into MySQL table 'vendor_invoice' in  0.04 min.
+2025-06-06 12:10:02,778 - INFO - 
+=====================Total Time Taken: -57.23408788839976minutes =====================
+2025-06-06 12:10:02,779 - INFO - All CSV files processed. Ingestion completed successfully.

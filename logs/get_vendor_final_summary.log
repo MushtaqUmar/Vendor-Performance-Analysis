@@ -1,0 +1,81 @@
+2025-06-08 13:55:14,681 - INFO - Successfully connected to MySQL.
+2025-06-08 13:55:14,696 - INFO - Creating Vendors Summary Table
+2025-06-08 13:56:06,379 - INFO -    VendorNumber                   VendorName  Brand              Description  \
+0          1128  BROWN-FORMAN CORP             1233  Jack Daniels No 7 Black   
+1          4425        MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035  PERNOD RICARD USA             8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC      4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC      3545          Ketel One Vodka   
+
+   PurchasePrice Volume  ActualPrice  TotalPurchaseQuantity  \
+0          26.27   1750        36.99               145080.0   
+1          23.19   1750        28.99               164038.0   
+2          18.24   1750        24.99               187407.0   
+3          16.17   1750        22.99               201682.0   
+4          21.89   1750        29.99               138109.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesPrice  \
+0            3811251.60            128606.0        613021.40   
+1            3804041.22            142035.0        512403.31   
+2            3418303.68            169835.0        420408.49   
+3            3261197.94            169057.0        382729.79   
+4            3023206.01            121484.0        496084.85   
+
+   TotalSalesDollars  TotalExciseTax  FreightCost  
+0         4631548.94       236299.10     68601.68  
+1         4291107.61       260975.54    144929.24  
+2         4131626.15       312057.64    123780.22  
+3         3817831.43       310629.46    257032.07  
+4         3792631.16       223213.81    257032.07  
+2025-06-08 13:56:06,379 - INFO - Cleaning data...
+2025-06-08 13:56:06,394 - INFO -    VendorNumber                VendorName  Brand              Description  \
+0          1128         BROWN-FORMAN CORP   1233  Jack Daniels No 7 Black   
+1          4425     MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035         PERNOD RICARD USA   8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC   4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC   3545          Ketel One Vodka   
+
+   PurchasePrice  Volume  ActualPrice  TotalPurchaseQuantity  \
+0          26.27  1750.0        36.99               145080.0   
+1          23.19  1750.0        28.99               164038.0   
+2          18.24  1750.0        24.99               187407.0   
+3          16.17  1750.0        22.99               201682.0   
+4          21.89  1750.0        29.99               138109.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesPrice  \
+0            3811251.60            128606.0        613021.40   
+1            3804041.22            142035.0        512403.31   
+2            3418303.68            169835.0        420408.49   
+3            3261197.94            169057.0        382729.79   
+4            3023206.01            121484.0        496084.85   
+
+   TotalSalesDollars  TotalExciseTax  FreightCost  GrossProfit  ProfitMargin  \
+0         4631548.94       236299.10     68601.68    820297.34         17.71   
+1         4291107.61       260975.54    144929.24    487066.39         11.35   
+2         4131626.15       312057.64    123780.22    713322.47         17.26   
+3         3817831.43       310629.46    257032.07    556633.49         14.58   
+4         3792631.16       223213.81    257032.07    769425.15         20.29   
+
+   StockTurnover  SalesToPurchaseRatio  
+0           0.89              1.215230  
+1           0.87              1.128039  
+2           0.91              1.208677  
+3           0.84              1.170684  
+4           0.88              1.254506  
+2025-06-08 13:56:06,403 - INFO - Ingesting summary data into database...
+2025-06-08 13:56:09,991 - INFO - ============= Vendors Sales final summary Ingested successfully  in 0.9218162337938944 minutes =============
+2025-06-08 14:25:50,026 - ERROR - No such comm target registered: jupyter.widget.control
+2025-06-08 14:25:50,060 - WARNING - No such comm: 494a8967-3457-4966-95b6-a0bc2e63c0e4
+2025-06-08 14:25:50,060 - DEBUG - Current comms: []
+2025-06-08 17:53:42,530 - ERROR - No such comm target registered: jupyter.widget.control
+2025-06-08 17:53:42,551 - WARNING - No such comm: 37caea8c-92f8-4903-9199-d91739b04b7b
+2025-06-08 17:53:42,553 - DEBUG - Current comms: []
+2025-06-08 19:26:52,441 - ERROR - No such comm target registered: jupyter.widget.control
+2025-06-08 19:26:52,456 - WARNING - No such comm: cd695497-81de-4d3c-86e0-fd4674184055
+2025-06-08 19:26:52,456 - DEBUG - Current comms: []
+2025-06-08 22:25:07,582 - ERROR - No such comm target registered: jupyter.widget.control
+2025-06-08 22:25:07,596 - WARNING - No such comm: aa12b087-84ec-41fc-af97-95b22e781783
+2025-06-08 22:25:07,598 - DEBUG - Current comms: []
+2025-06-09 13:39:51,420 - ERROR - No such comm target registered: jupyter.widget.control
+2025-06-09 13:39:51,431 - WARNING - No such comm: 4ee5e797-67d6-446e-93fe-652139500f7e
+2025-06-09 13:39:51,431 - DEBUG - Current comms: []
