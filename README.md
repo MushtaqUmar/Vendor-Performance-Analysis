@@ -1,4 +1,4 @@
-#  Vendor Performance Analysis — Data Analytics Project (SQL | Python | Power BI)
+#  Vendor Performance Analysis — Data Analytics Project (SQL | Python | Power BI | AI-Assistance)
 A real-world data analytics case study analyzing vendor performance in the retail/wholesale sector through the complete analytics pipeline: from data ingestion to insight generation and dashboard reporting.
 <br>
 ### Project Overview
