@@ -34,6 +34,9 @@ etc
 <b>- Jupyter Notebooks:</b> Development environment for writing Python code, EDA, and generating visual charts during analysis.
 Version Control: The project (scripts, notebooks, report, and .pbix file) is maintained in a GitHub repository for reproducibility and collaboration.
 <br>
+<b>AI_Assistance:</b>
+Leveraged AI tools like ChatGPT, DeepSeek, Claude, Gemini, and Copilot throughout the project lifecycle — from generating scripts and debugging errors to creating insightful charts, validating logic, and enhancing the final reporting and recommendations. These tools significantly accelerated analysis, improved code quality, and boosted strategic thinking.
+<br>
 <hr>
 
 ### Repository Structure
