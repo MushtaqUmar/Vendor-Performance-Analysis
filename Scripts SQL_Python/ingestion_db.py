@@ -63,7 +63,7 @@ try:
     url = URL.create(   
         drivername="mysql+mysqlconnector",
         username="root",
-        password="UMMU@112244",  # Don't worry, it's safe here
+        password="",  # Write your password of DB server
         host="localhost",
         database="Inventory_db"
     )
