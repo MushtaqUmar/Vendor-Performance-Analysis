@@ -46,13 +46,17 @@ Vendor-Performance-Analysis/
 │
 ├── Data/                              # Raw CSV files
 ├── logs/                              # ETL logs (Monitor ETL process for information, warning , error that helps in Debugging).
-├── ingestion_db.py                    # Python ETL script
-├── get_vendors_final_summary.py       # Feature aggregation script
-├── vendor_performance_schema.sql      # SQL schema definition
-├── Exploratory Data Analysis.ipynb    # Python EDA notebook (All company's raw csv data files)
-├── Vendor Performance Analysis.ipynb  # Additional analysis (EDA, cleaning, feature engineering, reaearch questions & insights from vendors_final_summary)
-├── Visualizing Insights.pbix          # Power BI dashboard file
+├── Scripts SQL_Python
+    ├── ingestion_db.py                    # Python ETL script
+    ├── get_vendors_final_summary.py       # script for final Summary Table for analysis and insights
+├── Notebooks
+    ├── vendor_performance_schema.sql      # SQL schema definition
+    ├── Exploratory Data Analysis.ipynb    # Python EDA notebook - on all company's raw csv data files)
+├── Vendor Performance Analysis.ipynb  # Additional analysis (EDA, cleaning, feature engineering, research questions & insights from vendors_final_summary)
+├── Dashboards
+    ├── Visualizing Insights.pbix          # Power BI dashboard file to visualize KPI's and insights.
 ├── Final Reporting.pdf                # Final report with findings and recommendations
+├── .gitignore               # Avoid un-neccessary/restricted files and folders
 └── README.md                          # Project overview and documentation (you're here!)
 ```
 <br>
