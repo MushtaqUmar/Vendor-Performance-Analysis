@@ -148,7 +148,6 @@ profitability, mitigate risks, and enhance overall operational efficiency.
 
 <h2>👤 Author / Contact</h2>
   - <p><strong>Author:</strong> Umar — Data Analyst & Aspiring Data Scientist</p>
-
-- [Email](umarofficial073@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/hereumar/)
-- [Portfolio](https://mushtaqumar.github.io/JS-Personal-Portfolio/)
+  - <a href="mailto:umarofficial073@gmail.com">Email</a> <br>
+  - <a href="https://www.linkedin.com/in/hereumar/">LinkedIn</a> <br>
+  - <a href="https://mushtaqumar.github.io/JS-Personal-Portfolio/">Portfolio</a>
