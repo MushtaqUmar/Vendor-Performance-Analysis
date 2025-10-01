@@ -144,3 +144,11 @@ Power BI dashboards cab be set to auto-refresh from MySQL for near real-time KPI
 
 - By implementing these recommendations, the company can achieve sustainable
 profitability, mitigate risks, and enhance overall operational efficiency.
+
+
+<h2>👤 Author / Contact</h2>
+  - <p><strong>Author:</strong> Umar — Data Analyst & Aspiring Data Scientist</p>
+
+- [Email](umarofficial073@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/hereumar/)
+- [Portfolio](https://mushtaqumar.github.io/JS-Personal-Portfolio/)
